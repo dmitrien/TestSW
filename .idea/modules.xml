@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adb.iml" filepath="$PROJECT_DIR$/.idea/modules/adb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/adb_main.iml" group="adb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/adb_test.iml" group="adb" />
+    </modules>
+  </component>
+</project>
