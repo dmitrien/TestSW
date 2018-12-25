@@ -14,9 +14,10 @@ public class ApplicationManager {
     private GroupHelper groupHelper;
     private StringBuffer verificationErrors = new StringBuffer();
 
+
+
     public void init() {
         driver = new FirefoxDriver();
-
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         groupHelper = new GroupHelper(driver);
         navigationHelper = new NavigationHelper(driver);
@@ -25,8 +26,6 @@ public class ApplicationManager {
         sessionHelper.login("admin", "secret");
     }
 
-
-
     public void stop() { //закрывает браузер
         driver.quit();
         String verificationErrorString = verificationErrors.toString();
@@ -34,6 +33,8 @@ public class ApplicationManager {
           fail(verificationErrorString);
         }
     }
+
+
 
     public GroupHelper getGroupHelper() {
         return groupHelper;
